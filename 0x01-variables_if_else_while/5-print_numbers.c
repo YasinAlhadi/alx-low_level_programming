@@ -8,11 +8,16 @@
  */
 int main(void)
 {
-	int x;
+	int i;
 
-	for (x = 0; x < 10; x++)
-		printf("%d", x);
+	x = 28;
 
-		printf("\n");
+	while (x < 38)
+	{
+		putchar(x);
+		x++;
+											}
+
+	putchar(10);
 	return (0);
 }
