@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-	char ch = 'a';
+	int a = 97;
 
-	while (ch <= 'z')
+	while (a <= 123)
 	{
-		putchar("%c", ch);
-		ch++;
+		putchar(a);
+		a++;
 	}
-	putchar(ch);
+	putchar(a);
 	return (0);
 }
