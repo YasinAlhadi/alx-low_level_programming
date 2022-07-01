@@ -1,23 +1,22 @@
 #include <stdio.h>
 /**
- * main - prints all single digit numbers base 10
+ * main - print digit number
  *
- * Description: program prints all single number base 10 start from 0
+ * Description: program prints digit number start from 0
  *
  * Return: Always (0) (Seccess)
  */
 int main(void)
 {
-	int i;
+	int a;
 
-	x = 28;
+	a = 0;
 
-	while (x < 38)
+	while (a < 10)
 	{
-		putchar(x);
-		x++;
-											}
-
+		putchar(a);
+		a++;
+	}
 	putchar(10);
 	return (0);
 }
