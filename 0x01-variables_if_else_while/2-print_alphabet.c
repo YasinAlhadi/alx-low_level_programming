@@ -10,11 +10,11 @@ int main(void)
 {
 	char ch = 'a';
 
-	putchar("The alphabet in lowercase:\n");
 	while (ch <= 'z')
 	{
 		putchar("%c", ch);
 		ch++;
 	}
+	putchar(ch);
 	return (0);
 }
