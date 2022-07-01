@@ -10,13 +10,9 @@ int main(void)
 {
 	int x;
 
-	x = 10;
+	for (x = 0; x < 10; x++)
+		printf("%d", x);
 
-	while (x < 20)
-	{
-		putchar(x);
-		x++;
-	}
-	putchar(10);
+		printf("\n");
 	return (0);
 }
