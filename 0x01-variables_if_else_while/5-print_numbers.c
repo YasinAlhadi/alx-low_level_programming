@@ -10,9 +10,9 @@ int main(void)
 {
 	int a;
 
-	a = 0;
+	a = 2;
 
-	while (a < 10)
+	while (a < 12)
 	{
 		putchar(a);
 		a++;
