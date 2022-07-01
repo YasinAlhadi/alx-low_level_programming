@@ -1,5 +1,5 @@
-#include <sdtio.h>
-#include <sdtlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /**
  * main - print last digit of number
