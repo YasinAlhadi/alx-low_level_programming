@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints all single digit numbers base 10 
+ * main - prints all single digit numbers base 10
  *
  * Description: program prints all single number base 10 start from 0
  *
@@ -15,6 +15,6 @@ int main(void)
 		putchar(a);
 		a++;
 	}
-	putchar(10);
+	putchar(a);
 	return (0);
 }
