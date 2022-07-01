@@ -4,3 +4,4 @@ variables, if else and while tasks
 2_program that prints the alphabet in lowercase, followed by a new line
 3_program that prints the alphabet in lowercase, and then in uppercase
 4_program that prints the alphabet in lowercase, except q and e
+5_program that prints all single digit numbers of base 10 starting from 0
