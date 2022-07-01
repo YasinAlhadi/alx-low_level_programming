@@ -8,13 +8,15 @@
  */
 int main(void)
 {
-	int a = 0;
+	int a;
+
+	a = 0;
 
 	while (a < 10)
 	{
 		putchar(a);
 		a++;
 	}
-	putchar(a);
+	putchar(10);
 	return (0);
 }
