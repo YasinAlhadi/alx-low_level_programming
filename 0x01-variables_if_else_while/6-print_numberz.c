@@ -8,14 +8,14 @@
  */
 int main(void)
 {
-	int a;
+	int i;
 
-	a = 1;
+	i = 0;
 
-	while (a < 11)
+	while (i < 10)
 	{
-		putchar(a);
-		a++;
+		putchar(i);
+		i++;
 	}
 	putchar(10);
 	return (0);
