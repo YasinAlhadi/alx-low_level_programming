@@ -6,3 +6,4 @@ variables, if else and while tasks
 4_program that prints the alphabet in lowercase, except q and e
 5_program that prints all single digit numbers of base 10 starting from 0
 6_ program that prints all single digit numbers of base 10 starting from 0_putchar
+7_program that prints the lowercase alphabet in reverse
