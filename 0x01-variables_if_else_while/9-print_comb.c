@@ -8,8 +8,6 @@
  */
 int main(void)
 {
-	int x;
-
 	int x = 48;
 
 	while (x < 58)
