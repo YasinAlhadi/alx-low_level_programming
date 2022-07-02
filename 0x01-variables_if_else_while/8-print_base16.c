@@ -15,7 +15,7 @@ int main(void)
 			if (x < 10)
 				putchar(x + '0');
 			else if (x > 41)
-				putchar(x - 10 = 'A');
+				putchar(x - 10 + 'A');
 			x++;
 		}
 	putchar(10);
