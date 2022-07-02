@@ -10,9 +10,12 @@ int main(void)
 {
 	int x = 0;
 
-		while (x <= 15)
+		while (x < 48)
 		{
-			putchar("%x", x)
+			if (x < 10)
+				putchar(x + '0');
+			else if (x > 41)
+				putchar(x - 10 = 'A');
 			x++;
 		}
 	putchar(10);
