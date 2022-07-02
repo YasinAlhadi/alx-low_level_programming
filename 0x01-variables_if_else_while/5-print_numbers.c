@@ -14,8 +14,10 @@ int main(void)
 
 	while (a < 10)
 	{
-		printf(a);
+		putchar(a);
 		a++;
 	}
+	putchar(10);
+
 	return (0);
 }
