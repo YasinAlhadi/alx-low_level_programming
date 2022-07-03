@@ -9,3 +9,4 @@ variables, if else and while tasks
 7_program that prints the lowercase alphabet in reverse
 program that prints all the numbers of base 16 in lowercase
 9_program that prints all possible combinations of single-digit numbers
+11_program prints all possible different combinations of three digits

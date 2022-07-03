@@ -20,7 +20,7 @@ int main(void)
 		while (y < 58)
 		{
 			z = y + 1;
-			while (k < 58)
+			while (z < 58)
 			{
 				putchar(x);
 				putchar(y);
