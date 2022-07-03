@@ -13,7 +13,6 @@ int main(void)
 
 	x = 48;
 	y = 48;
-	
 	while (x < 58)
 	{
 		y = x + 1;
