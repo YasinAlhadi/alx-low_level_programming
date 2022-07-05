@@ -3,3 +3,4 @@
 2_ function that prints 10 times the alphabet, in lowercase, followed by a new line.
 3_ function that checks for lowercase character.
 4_ function that checks for alphabetic character.
+5_ function that prints the sign of a number.
