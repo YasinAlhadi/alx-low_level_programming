@@ -8,12 +8,13 @@
 void jack_bauer(void)
 {
 	int h, m;
+	h = 0;
 
-	for (h = 0; h <= 23; h++)
+	while (h <= 23)
 	{
 	
-		for (m = 0; m <= 59; m++)
-		{	
+		while (m <= 59)
+		{
 			printf("%2d :", h);
 			printf("%2d", m);
 			m++;
