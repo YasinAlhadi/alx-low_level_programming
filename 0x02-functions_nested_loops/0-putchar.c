@@ -8,9 +8,13 @@
  */
 int main(void)
 {
-	char p = "_putchar";
+	char print_st[9] = "_putchar";
+	int x = 0;
 
-	_putchar("%c", p);
+	for (x = 0; x < 8; x++)
+	{
+		_putchar(print_st[x]);
+	}
 	_putchar("\n");
 	return (0);
 }
