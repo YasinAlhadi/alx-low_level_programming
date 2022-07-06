@@ -15,7 +15,7 @@ void times_table(void)
 		{
 			printf("%d", c);
 		}
-		prtintf("\n");
+		printf("\n");
 		for (c = 0; c <= 9; c++)
 		{
 			printf("%d", c);
