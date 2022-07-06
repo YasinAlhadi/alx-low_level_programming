@@ -1,10 +1,10 @@
 #include <stdio.h>
-/*
- * main - computes and prints the sum of all the multiples of 3 or 5
+/**
+ * main - print sum of multiples
  *
- * Description: program compute and print the sum
+ * Description: computes and prints the sum of all the multiples of 3 or 5
  *
- * Return: 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 
 	sum = 0;
 
-	for (n = 0; n < 1025; n++)
+	for (n = 0; n < 1024; n++)
 	{
 		if (n % 3 == 0 || n % 5 == 0)
 		{
