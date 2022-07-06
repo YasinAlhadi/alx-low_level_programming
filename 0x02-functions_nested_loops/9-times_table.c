@@ -13,17 +13,17 @@ void times_table(void)
 
 		for (c = 0; c <= 9; c++)
 		{
-			printf("%d", c);
+			printf("%d, ", c);
 		}
 		printf("\n");
 		for (c = 0; c <= 9; c++)
 		{
-			printf("%d", c);
-		}
+			printf("%d, ", c);
 		for (r = 0; r <= 9; r++)
 		{
-			printf("%d", c * r);
+			printf("%d, ", c * r);
 		}
 		printf("\n");
+		}
 }
 
