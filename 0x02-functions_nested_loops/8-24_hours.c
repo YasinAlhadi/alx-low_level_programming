@@ -8,11 +8,13 @@
 void jack_bauer(void)
 {
 	int h, m;
+
 	h = 0;
 
 	while (h <= 23)
 	{
-	
+		m = 0;
+
 		while (m <= 59)
 		{
 			printf("%2d :", h);
