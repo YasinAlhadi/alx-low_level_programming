@@ -24,6 +24,6 @@ int main(void)
 		c++;
 	}
 	sum = f + s;
-	printf("%li, ", sum);
+	printf("%li\n", sum);
 	return (0);
 }
