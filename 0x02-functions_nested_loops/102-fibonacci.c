@@ -11,7 +11,7 @@ int main(void)
 	int f, s, sum, c;
 
 	f = 0;
-	n = 1;
+	s = 1;
 	sum = 0;
 
 	while (c <= 49)
