@@ -24,4 +24,5 @@ int main(void)
 	}
 	sum = f + s;
 	printf("%i, ", sum);
+	return (0);
 }
