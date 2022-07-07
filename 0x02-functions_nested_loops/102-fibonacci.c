@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	int f, s, sum, c;
+	long int f, s, sum;
+	int c;
 
 	f = 0;
 	s = 1;
@@ -17,12 +18,12 @@ int main(void)
 	while (c <= 49)
 	{
 		sum = f + s;
-		printf("%i, ", sum);
+		printf("%li, ", sum);
 		f = s;
 		s = sum;
 		c++;
 	}
 	sum = f + s;
-	printf("%i, ", sum);
+	printf("%li, ", sum);
 	return (0);
 }
