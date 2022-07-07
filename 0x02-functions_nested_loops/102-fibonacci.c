@@ -15,7 +15,7 @@ int main(void)
 	s = 1;
 	sum = 0;
 
-	while (c <= 49)
+	while (c < 49)
 	{
 		sum = f + s;
 		printf("%li, ", sum);
