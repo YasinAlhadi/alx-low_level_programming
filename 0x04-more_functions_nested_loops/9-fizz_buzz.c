@@ -16,20 +16,20 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-		else if (n % 3 == 0)
+		else if (n % 5 == 0)
 		{
 			if (n == 100)
 				printf("Buzz");
 			else
-				printf("Fizz ");
+				printf("Buzz ");
 		}
-		else if (n % 5 == 0)
+		else if (n % 3 == 0)
 		{
-			printf("Buzz ");
+			printf("Fizz ");
 		}
 		else
 		{
-			printf("%d ", n);
+			printf("%d", n);
 		}
 	}
 	printf("\n");
