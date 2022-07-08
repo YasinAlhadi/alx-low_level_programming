@@ -10,7 +10,7 @@ int main(void)
 {
 	int n;
 
-	for (n = 1; n < 101; n++)
+	for (n = 1; n <= 100; n++)
 	{
 		if (n % 5 == 0 && n % 3 == 0)
 			printf("FizzBuzz ");
@@ -22,7 +22,7 @@ int main(void)
 		else if (n % 3 == 0)
 			printf("Fizz ");
 		else
-			printf("%d", n);
+			printf("%d ", n);
 	}
 	printf("\n");
 	return (0);
