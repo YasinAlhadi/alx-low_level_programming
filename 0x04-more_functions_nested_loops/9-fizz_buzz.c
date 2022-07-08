@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - print fizz buzz
+ * main - print Fizz Buzz
  *
- * Description: print fizz buzz from 1 - 100
+ * Description: print fizz buzz and FizzBuzz
  *
  * Return: Always 0
  */
@@ -19,7 +19,7 @@ int main(void)
 		else if (n % 3 == 0)
 		{
 			if (n == 100)
-				printf("Buzz")
+				printf("Buzz");
 			else
 				printf("Fizz ");
 		}
