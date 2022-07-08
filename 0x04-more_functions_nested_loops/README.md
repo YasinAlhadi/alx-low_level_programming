@@ -7,3 +7,4 @@
 5_ function that prints 10 times the numbers, from 0 to 14.
 6_  function that draws a straight line in the terminal.
 7_ function that draws a diagonal line on the terminal.
+8_  function that prints a square, followed by a new line.
