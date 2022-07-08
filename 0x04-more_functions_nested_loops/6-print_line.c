@@ -2,17 +2,18 @@
 
 /**
  * print_line - draw line
- *@n: width of line
+ * @n: width of line
+ *
  * Return: void
  */
 void print_line(int n)
 {
-	int l = 0;
+	int line = 0;
 
-	while (l < n)
+	while (line < n)
 	{
 		_putchar('_');
-		l++
+		line++;
 	}
 	_putchar('\n');
 }
