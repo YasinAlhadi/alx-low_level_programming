@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  *  print_array -  print n elements of an array of integers
- *  @a: piontr
- *  @n: number of element
+ *  @a: integer array
+ *  @n: number of element to print
  *
  *  Return: void
  */
@@ -17,7 +17,7 @@ void print_array(int *a, int n)
 		n = 0;
 	if (n > 0)
 	{
-		while (a[i] != '\0' && c < n)
+		while (a[i] != '\0' && c == n - 1)
 		{
 			printf("%d, ", a[i]);
 			i++;
