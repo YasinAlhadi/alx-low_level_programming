@@ -8,3 +8,4 @@
 6_  function that prints every other character of a string.
 7_ function that prints half of a string, followed by a new line.
 8_  function that prints n elements of an array of integers, followed by a new line.
+9_ function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
