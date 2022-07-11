@@ -9,7 +9,7 @@
  */
 void print_array(int *a, int n)
 {
-	int i, c;
+	int i;
 
 	i = 0;
 	while (a[i] != '\0' )
