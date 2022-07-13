@@ -4,7 +4,7 @@
  *
  * Return: string in uppercase
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	in i;
 
