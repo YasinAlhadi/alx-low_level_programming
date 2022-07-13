@@ -4,7 +4,7 @@
  * @dest: first string
  * @src: second srting
  * @n: number of bytes
- * Return: char
+ * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -15,7 +15,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		len++;
 	}
-	for (j = 0; j < n; && src[j] != '\0'; j++)
+	for (j = 0; j < n && src[j] != '\0'; j++)
 		dest[len + j] = src[j];
 	dest[len] = '\0';
 
