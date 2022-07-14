@@ -5,3 +5,4 @@ More pointers, arrays and strings
 3_  function that compares two strings.
 4_  function that reverses the content of an array of integers.
 5_  function that changes all lowercase letters of a string to uppercase.
+6_ function that capitalizes all words of a string.
