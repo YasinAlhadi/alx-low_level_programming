@@ -7,3 +7,4 @@ More pointers, arrays and strings
 5_  function that changes all lowercase letters of a string to uppercase.
 6_ function that capitalizes all words of a string.
 7_  function that encodes a string into 1337.
+8_  function that encodes a string using rot13.
