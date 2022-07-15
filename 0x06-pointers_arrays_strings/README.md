@@ -8,3 +8,4 @@ More pointers, arrays and strings
 6_ function that capitalizes all words of a string.
 7_  function that encodes a string into 1337.
 8_  function that encodes a string using rot13.
+9_ a function that prints an integer.
