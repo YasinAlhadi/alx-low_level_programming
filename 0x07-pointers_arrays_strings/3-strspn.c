@@ -19,7 +19,7 @@ unsigned int _strspn(char *s, char *accept)
 		prev = count;
 		while (*(accept + j) != '\0')
 		{
-			if (*(s + i) == *(accept +j))
+			if (*(s + i) == *(accept + j))
 			{
 				count++;
 			}
