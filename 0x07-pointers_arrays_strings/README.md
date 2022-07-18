@@ -8,4 +8,4 @@
 5_ function that locates a substring.
 6_ function that prints the chessboard.
 7_ function that prints the sum of the two diagonals of a square matrix of integers.
-
+8_  function that sets the value of a pointer to a char
