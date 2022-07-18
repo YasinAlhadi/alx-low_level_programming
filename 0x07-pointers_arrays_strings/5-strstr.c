@@ -20,17 +20,17 @@ char *_strstr(char *haystack, char *needle)
 	}
 	for (i = 0; haystack[i] != '\0'; i++)
 	{
-		for (j = 0; j < len && haystack[i] == needle[j]; j++, i++)
+	for (j = 0; j < len && haystack[i] == needle[j]; j++, i++)
+	{
+		if (j == 0)
 		{
-			if (j == 0)
-			{
-				start = i;
-			}
-			if (j == len - 1)
-			{
-				return (haystack + start);
-			}
+			start = i;
 		}
+		if (j == len - 1)
+		{
+			return (haystack + start);
+		}
+	}
 	}
 	return (0);
 }
