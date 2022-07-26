@@ -4,3 +4,4 @@
 2_ function that concatenates two strings.
 3_ function that returns a pointer to a 2 dimensional array of integers.
 4_ function that frees a 2 dimensional grid previously created by your alloc_grid function.
+5_  function that concatenates all the arguments of your program.
