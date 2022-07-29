@@ -4,4 +4,4 @@
 1_  function that concatenates two strings.
 2_  function that allocates memory for an array, using malloc.
 3_ function that creates an array of integers.
-4_ 
+4_ function that reallocates a memory block using malloc and free 
